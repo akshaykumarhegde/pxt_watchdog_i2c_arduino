@@ -15,7 +15,7 @@
 const int ledPin =  LED_BUILTIN;
 unsigned long previousMillis = 0;        // 
 // constants won't change:
-const long interval = 10000; // interval at which to blink (milliseconds)
+const long interval = 100000; // interval at which to blink (milliseconds)
  int x =0;
 void setup() {
   Wire.begin(8);                // join i2c bus with address #8
